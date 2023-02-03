@@ -1,0 +1,41 @@
+.photo {
+  width: 250px;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+}
+
+.slide>div {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 60px;
+  background-color: rgb(203, 0, 221);
+}
+
+.rev_slider {
+  position: absolute;
+  top: 50%;
+  width: 50%;
+  height: 300px;
+}
+
+.slide {
+  padding: 15px;
+}
+
+.props {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cont>div {
+  margin-bottom: 15px;
+}
+
